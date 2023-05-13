@@ -70,8 +70,7 @@ template <class T>
 void Broadmark<T>::detect_edge_face_candidates(
     std::vector<EdgeFaceCandidate>& candidates) const
 {
-    // interface.FilterOverlaps(num_vertices, edges, faces);
-    // candidates = interface.candidates.ef_candidates;
+    throw std::runtime_error("Not implemented!");
 }
 
 template <class T>
